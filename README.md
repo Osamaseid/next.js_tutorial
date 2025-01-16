@@ -1,1 +1,1 @@
-ddd﻿# next.js_tutorial
+﻿# next.js_tutorial
