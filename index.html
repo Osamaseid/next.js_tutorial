@@ -1,12 +1,11 @@
-function Header() { return
-<h1>Develop. Preview. Ship.</h1>
-; } function HomePage() { return (
+function HomePage() { const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret
+Hamilton']; return (
 <div>
-  <header />
+  <header title="Develop. Preview. Ship." />
+  <ul>
+    {names.map((name) => (
+    <li>{name}</li>
+    ))}
+  </ul>
 </div>
-); } const root = ReactDOM.createRoot(app); root.render(<HomePage />); function
-Hello(){ return
-<h3>hello</h3>
-} Hello()
-
-<p>hello world</p>
+); }
